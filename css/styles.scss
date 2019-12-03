@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import './scss/variables';
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $roboto;
+}
+
+@import './scss/layout';
+@import './scss/parts/sidebar';
+@import './scss/parts/header';
+
+// Pages
+@import './scss/pages/home';
+@import './scss/pages/news';
+@import './scss/pages/weather';

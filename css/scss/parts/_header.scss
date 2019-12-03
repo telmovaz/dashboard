@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+  .logo-container {
+    box-sizing: border-box;
+    padding: 0 15px;
+
+    a {
+      display: block;
+      margin: 0 auto;
+
+      img {
+        width: 160px;
+      }
+    }
+  }
+}

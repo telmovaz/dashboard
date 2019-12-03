@@ -1,0 +1,21 @@
+.dashboard-container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+
+  .sidebar,
+  .header {
+    width: 100%;
+    height: 100%;
+  }
+
+  .sidebar {
+    background-color: $sidebar-color;
+    grid-row: 2 / 4;
+  }
+
+  .header {
+    background-color: $header-color;
+    grid-column: 1 / 4;
+  }
+}
