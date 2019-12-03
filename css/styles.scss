@@ -1,144 +1,24 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(45deg, red 10%, black 40%);
-    animation-name:gradient-change;
-    animation-duration: 5s;
-    background-size: 200% 200%;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import './scss/variables';
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    display: grid;
-    width: 100%;
-    height: 100%;
-    grid-template-columns: 1fr 5fr 6fr;
-    grid-template-rows: 1fr 4fr 6fr;
-
-
-}
-.sidebar,
-.header,
-.news {
-    width: 100%;
-    height: 100%;
+body {
+  font-family: $roboto;
 }
 
-.sidebar {
-  
-    background-color:gray;
-    grid-row-start: 1;
-    grid-row-end: 4;
-}
+@import './scss/layout';
+@import './scss/parts/sidebar';
+@import './scss/parts/header';
 
-.header {
-  
-    background-color: darkblue;
-    grid-column-start: 2;
-    grid-column-end: 4;
-}
-.news {
-    background-color:purple;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-}
-
-/*animation css
-
-.my-block{
-    width:200px;
-    height:200px;
-    margin-left:200px;
-    margin-top:100px;
-    background-color:orange;
-    transition: all 3s ease;
-    
-    
-    &:hover{
-        background-color:red;
-        width:300px;
-    }
-}*/
-h1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width:200px;
-    height: 30px;
-    text-align: center;
-    color:white;
-    animation-name: text-appear;
-    animation-duration: 3s;
-}
-.circle {
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    border: 1px solid white;
-    border-radius:50%;
-    animation-name: circle-rotation;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-.circle-1 {
-    height: 375px;
-    animation-duration: 1.7s;
-}
-.circle-2 {
-    width: 375px;
-    animation-duration: 1.2s;
-}
-.circle-3 {
-    height: 390px;
-    animation-duration: 2s;
-}
-.circle-4 {
-    width: 390px;
-    animation-duration: 2.1s;
-}
-.circle-5 {
-    height: 385px;
-    animation-duration: 0.9s;
-}
-
-@keyframes circle-rotation {
-    from {
-        transform: rotate(0deg);
-        box-shadow:0 2px 10px darkgreen;
-    }
-    to {
-        transform: rotate(360deg);
-        box-shadow:0 2px 10px darkgreen;
-    }
-}
-
-@keyframes text-appear {
-    0% {
-        right: -100px;
-    }
-    20% {
-        right:50%;
-    }
-    50% {
-
-    }
-}
-@keyframes gradient-change {
-    from {
-        background-position: 0% 0%;
-    }
-    to {
-        background-position: 100% 100%;
-    }
-}
+// Pages
+@import './scss/pages/home';
+@import './scss/pages/news';
+@import './scss/pages/weather';

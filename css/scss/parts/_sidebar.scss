@@ -1,0 +1,33 @@
+.sidebar {
+  padding-top: 50px;
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+      font-size: 0.7rem;
+      box-sizing: border-box;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: $primary;
+      margin-bottom: 5px;
+      transition: all 0.2s ease;
+
+      &:hover,
+      &.active {
+        background-color: rgba($primary, 0.2);
+      }
+
+      @media (min-width: 768px) {
+        padding: 15px 20px;
+        font-size: 0.8rem;
+      }
+
+      @media (min-width: 992px) {
+        font-size: 0.9rem;
+        padding: 15px 30px;
+      }
+    }
+  }
+}
