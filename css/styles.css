@@ -227,6 +227,7 @@ body {
 
 .news-container .big-block {
   background-color: #222222;
+  background-size: cover;
 }
 
 .news-container .big-block--top {
@@ -236,6 +237,7 @@ body {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2 / 4;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/147C2/production/_109960938_mediaitem109960937.jpg");
 }
 
 .news-container .big-block--bottom {
@@ -245,10 +247,12 @@ body {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2 / 4;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/147C2/production/_109960938_mediaitem109960937.jpg");
 }
 
 .news-container .small-block {
   background-color: #777777;
+  background-size: cover;
 }
 
 .news-container .small-block--one {
@@ -258,6 +262,7 @@ body {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4 / 5;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/3306/production/_110026031_gettyimages-1183455379.jpg");
 }
 
 .news-container .small-block--two {
@@ -267,6 +272,7 @@ body {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
   grid-column: 5 / 6;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/ACD1/production/_103114244_gettyimages-527553412.jpg");
 }
 
 .news-container .small-block--three {
@@ -276,6 +282,7 @@ body {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4 / 5;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/304/ibroadcast/images/live/p0/7x/0x/p07x0xtt.jpg");
 }
 
 .news-container .small-block--four {
@@ -285,6 +292,7 @@ body {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
   grid-column: 5 / 6;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/304/ibroadcast/images/live/p0/7x/11/p07x111t.jpg");
 }
 
 .news-container .small-block--five {
@@ -294,6 +302,7 @@ body {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4 / 5;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/3306/production/_110026031_gettyimages-1183455379.jpg");
 }
 
 .news-container .small-block--six {
@@ -303,6 +312,7 @@ body {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
   grid-column: 5 / 6;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/3306/production/_110026031_gettyimages-1183455379.jpg");
 }
 
 .news-container .small-block--seven {
@@ -312,6 +322,7 @@ body {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4 / 5;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/3306/production/_110026031_gettyimages-1183455379.jpg");
 }
 
 .news-container .small-block--eight {
@@ -321,6 +332,7 @@ body {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
   grid-column: 5 / 6;
+  background-image: url("https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/3306/production/_110026031_gettyimages-1183455379.jpg");
 }
 
 @media (min-width: 576px) {
